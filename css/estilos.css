@@ -1,0 +1,94 @@
+* {
+  margin: 5px !important;
+}
+
+header {
+  background: linear-gradient(135deg, #6d0707d2 10%, #8d070c6b 100%);
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  height: 120px;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+header p {
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 27px;
+  padding-top: 17px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 2px;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #19506b;
+  border-radius: 4px;
+  padding: 8px 14px;
+  text-align: left;
+}
+
+header nav li a:hover {
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 12px;
+}
+
+footer {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#formulario {
+  padding: 20px;
+}
+
+.wide-table {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.wide-table th,
+.wide-table td {
+  padding: 7px;
+  text-align: center;
+}
+
+.wide-table thead th {
+  background-color: #19506b;
+  color: #fff;
+}
+
+.wide-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.wide-table tbody td {
+  vertical-align: middle;
+}
+
+.btn-container {
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 20px;
+}
