@@ -7,7 +7,7 @@ Sistema web gestor de resoluciones
 
 |                               Login de acceso                                  |  
 |:------------------------------------------------------------------------------:|
-|  <img src="https://imgur.com/1kT04my"/>                                        | 
+|  <img src="https://imgur.com/1kT04my" style="height: 50%; width:50%;"/>                                        | 
 
 ### Vista administrador
 
