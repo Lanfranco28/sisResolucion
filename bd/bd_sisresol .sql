@@ -61,23 +61,6 @@ CREATE TABLE `resolucion` (
 -- Volcado de datos para la tabla `resolucion`
 --
 
-INSERT INTO `resolucion` (`cod_resol`, `num_resol`, `fecha`, `titulo`, `id_tipo`, `urls`, `id_usuario`, `hora`) VALUES
-(52, '082-2023-GM/MDH', '2023-07-09', 'PLAN DE TRABAJO PUBLICITARIAS INSTITUCIONAL', 1, 'archivos/082-2023-gmmdh.pdf', 1, NULL),
-(53, '0011', '2023-07-09', 'Practicas', 2, 'archivos/0011.pdf', 5, NULL),
-(54, '083-2023-GM/MDH', '2023-07-09', 'Provincia', 2, 'archivos/083-2023-gmmdh.pdf', 1, '02:53:22'),
-(55, '0998877', '2023-07-13', 'PLAN DE TRABAJO PUBLICITARIAS INSTITUCIONAL', 1, 'archivos/0998877.pdf', 1, '18:29:28'),
-(61, '11', '2023-07-21', 'Practicas', 6, 'archivos/11.pdf', 50, '07:25:57'),
-(71, '112322', '2023-07-21', 'Practicas', 7, 'archivos/112322.pdf', 50, '07:46:51'),
-(81, '33', '2023-07-22', 'Practicas', 1, 'archivos/33.pdf', 50, '14:48:34'),
-(82, '44', '2023-07-22', 'Nueva obra civil', 4, 'archivos/44.pdf', 1, '14:52:55'),
-(84, '55', '2023-07-22', 'Provincia', 3, 'archivos/55.pdf', 1, '14:54:06'),
-(85, '0546378', '2023-07-22', 'PLAN DE TRABAJO PUBLICITARIAS INSTITUCIONAL', 5, 'archivos/0546378.pdf', 1, '15:20:01'),
-(89, '11222', '2023-07-22', 'Practicas', 11, 'archivos/11222.pdf', 50, '15:33:15'),
-(90, '987676', '2023-07-22', 'Practicas', 9, 'archivos/987676.pdf', 50, '15:37:07'),
-(92, '99998', '2023-07-22', 'Practicas', 11, 'archivos/99998.pdf', 50, '15:56:38'),
-(94, 'wdasfasd', '2023-07-26', 'Aprovar el contrato CAS 2023', 1, 'archivos/wdasfasd.pdf', 53, '03:00:08'),
-(95, '084-2023-GM/MDH', '2023-08-01', 'PLAN DE TRABAJO PUBLICITARIAS INSTITUCIONAL', 1, 'archivos/084-2023-gmmdh.pdf', 52, '16:08:03');
-
 -- --------------------------------------------------------
 
 --
@@ -126,11 +109,6 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`id_usuario`, `nom_usuario`, `contraseña`, `id_cargo`) VALUES
 (1, 'Lanfranco', '12345678', 1),
-(50, 'Loan', 'ochoocho', 2),
-(51, 'Walter', '12345678', 1),
-(52, 'Cesar', '87654321', 1),
-(53, 'Daniel', '12345678', 2),
-(54, 'Gato', '88888888', 2);
 
 --
 -- Índices para tablas volcadas
